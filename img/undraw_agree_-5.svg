@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="355.715" height="361.825" viewBox="0 0 355.715 361.825">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.709" y1="0.047" x2="0.372" y2="0.473" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#30cef7"/>
+      <stop offset="1" stop-color="#38ecaf"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="-0.075" y2="1.153" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#30cdfc"/>
+      <stop offset="1" stop-color="#39f0a7"/>
+    </linearGradient>
+  </defs>
+  <g id="undraw_agree_8pb9" transform="translate(0 1.022)">
+    <path id="Path_187" data-name="Path 187" d="M340.308,354.048h-1.157V196.976a74.165,74.165,0,0,1,27.4-57.677,72.606,72.606,0,0,1,60.673-15.04,61.434,61.434,0,0,1,36.766,22.317l-.906.72a60.308,60.308,0,0,0-36.092-21.9,71.45,71.45,0,0,0-59.709,14.8,73.011,73.011,0,0,0-26.971,56.78Z" transform="translate(-161.621 -122.782)" fill="#fff" stroke="#fff" stroke-width="2"/>
+    <path id="Path_204" data-name="Path 204" d="M408.319,510.834C390.42,577,329.114,617.975,329.114,617.975s-32.287-66.3-14.389-132.46S393.93,378.374,393.93,378.374,426.218,444.67,408.319,510.834Z" transform="translate(-149.048 -257.172)" fill="url(#linear-gradient)"/>
+    <path id="Path_205" data-name="Path 205" d="M195.052,510.834c17.9,66.164,79.205,107.141,79.205,107.141s32.287-66.3,14.389-132.46-79.205-107.141-79.205-107.141S177.154,444.67,195.052,510.834Z" transform="translate(-98.608 -257.172)" fill="url(#linear-gradient-2)"/>
+    <path id="Path_206" data-name="Path 206" d="M155.028,545C204.142,592.807,210.141,666.3,210.141,666.3S136.51,662.283,87.4,614.472,32.283,493.166,32.283,493.166,105.914,497.186,155.028,545Z" transform="translate(-32.283 -305.554)" fill="#21426a"/>
+    <path id="Path_207" data-name="Path 207" d="M394.83,545C345.716,592.807,339.717,666.3,339.717,666.3s73.631-4.02,122.745-51.831,55.113-121.306,55.113-121.306S443.944,497.186,394.83,545Z" transform="translate(-161.859 -305.554)" fill="#21426a"/>
+  </g>
+</svg>

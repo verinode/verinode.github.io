@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1482" height="877" viewBox="0 0 1482 877">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.469" r="0.28" gradientTransform="translate(0.018 -0.018) rotate(2.134)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3d2353"/>
+      <stop offset="1" stop-color="#220f37"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient" x1="0.966" y1="0.065" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f49555"/>
+      <stop offset="1" stop-color="#fc3093"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_16" data-name="Group 16" transform="translate(-4060 -1345)">
+    <g id="Group_12" data-name="Group 12" transform="translate(1523 -943)">
+      <g id="Rectangle_1" data-name="Rectangle 1" transform="translate(2537 2288)" stroke="#707070" stroke-width="1" fill="url(#radial-gradient)">
+        <rect width="1482" height="877" stroke="none"/>
+        <rect x="0.5" y="0.5" width="1481" height="876" fill="none"/>
+      </g>
+    </g>
+    <g id="Group_15" data-name="Group 15" transform="translate(64 52.353)">
+      <g id="Group_183" data-name="Group 183">
+        <path id="iconmonstr-check-mark-18" d="M408.352,26.745,272.084,182.085l-53.616,61.12L102.088,141.117l22.442-25.352L215.406,195.5,383.255,5l25.1,21.745ZM22.442,115.766l116.3,102.258L116.38,243.205,0,141.117l22.442-25.352ZM180.3,119.475,281.048,5l25.216,21.864L205.52,141.815Z" transform="translate(4254 1572.647)" fill-rule="evenodd" fill="url(#linear-gradient)"/>
+      </g>
+      <text id="erinode" transform="translate(4503.554 1813)" fill="#fff" font-size="205" font-family="Gilroy-ExtraBold, Gilroy" font-weight="800"><tspan x="0" y="0">erinode</tspan></text>
+    </g>
+  </g>
+</svg>
