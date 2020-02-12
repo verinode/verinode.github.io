@@ -1,0 +1,237 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'ghost-cli@latest',
+1 verbose cli   '-g' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose cache add [ 'ghost-cli@latest', null ]
+5 verbose cache add name=undefined spec="ghost-cli@latest" args=["ghost-cli@latest",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'ghost-cli@latest',
+6 verbose parsed url   path: 'ghost-cli@latest',
+6 verbose parsed url   href: 'ghost-cli@latest' }
+7 verbose cache add name="ghost-cli" spec="latest" args=["ghost-cli","latest"]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'latest',
+8 verbose parsed url   path: 'latest',
+8 verbose parsed url   href: 'latest' }
+9 verbose addNamed [ 'ghost-cli', 'latest' ]
+10 verbose addNamed [ null, null ]
+11 silly lockFile 94fc94ca-ghost-cli-latest ghost-cli@latest
+12 verbose lock ghost-cli@latest /Users/richardmasters/.npm/94fc94ca-ghost-cli-latest.lock
+13 info addNameTag [ 'ghost-cli', 'latest' ]
+14 verbose request where is /ghost-cli
+15 verbose request registry https://registry.npmjs.org/
+16 verbose request id 242f5ad72bdd11b9
+17 verbose url raw /ghost-cli
+18 verbose url resolving [ 'https://registry.npmjs.org/', './ghost-cli' ]
+19 verbose url resolved https://registry.npmjs.org/ghost-cli
+20 verbose request where is https://registry.npmjs.org/ghost-cli
+21 info trying registry request attempt 1 at 19:16:26
+22 http GET https://registry.npmjs.org/ghost-cli
+23 http 200 https://registry.npmjs.org/ghost-cli
+24 silly registry.get cb [ 200,
+24 silly registry.get   { date: 'Wed, 12 Feb 2020 19:16:30 GMT',
+24 silly registry.get     'content-type': 'application/json',
+24 silly registry.get     'transfer-encoding': 'chunked',
+24 silly registry.get     connection: 'keep-alive',
+24 silly registry.get     'set-cookie': [ '__cfduid=d0fa488fb05bc866dd2944c38fc0f7cdf1581534990; expires=Fri, 13-Mar-20 19:16:30 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+24 silly registry.get     'cf-ray': '5640e5bbab73349e-LHR',
+24 silly registry.get     age: '3898',
+24 silly registry.get     'cache-control': 'public, max-age=300',
+24 silly registry.get     etag: 'W/"e82ce8c8fdaad3a9538240300831384c"',
+24 silly registry.get     'last-modified': 'Fri, 08 Nov 2019 10:08:03 GMT',
+24 silly registry.get     vary: 'accept-encoding, accept',
+24 silly registry.get     'cf-cache-status': 'HIT',
+24 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+24 silly registry.get     server: 'cloudflare',
+24 silly registry.get     'content-encoding': 'gzip' } ]
+25 verbose addNamed [ 'ghost-cli', '1.13.1' ]
+26 verbose addNamed [ '1.13.1', '1.13.1' ]
+27 silly lockFile f59e9c7f-ghost-cli-1-13-1 ghost-cli@1.13.1
+28 verbose lock ghost-cli@1.13.1 /Users/richardmasters/.npm/f59e9c7f-ghost-cli-1-13-1.lock
+29 silly lockFile 276f2374-g-ghost-cli-ghost-cli-1-13-1-tgz https://registry.npmjs.org/ghost-cli/-/ghost-cli-1.13.1.tgz
+30 verbose lock https://registry.npmjs.org/ghost-cli/-/ghost-cli-1.13.1.tgz /Users/richardmasters/.npm/276f2374-g-ghost-cli-ghost-cli-1-13-1-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/ghost-cli/-/ghost-cli-1.13.1.tgz',
+31 verbose addRemoteTarball   '5de99f2a3446e7dfc5391afa8acdf10cd47b9916' ]
+32 info retry fetch attempt 1 at 19:16:26
+33 verbose fetch to= /var/folders/p1/mcd3y24939dgkwvs6xctn7bm0000gn/T/npm-11713-uY7oetwC/registry.npmjs.org/ghost-cli/-/ghost-cli-1.13.1.tgz
+34 http GET https://registry.npmjs.org/ghost-cli/-/ghost-cli-1.13.1.tgz
+35 http 200 https://registry.npmjs.org/ghost-cli/-/ghost-cli-1.13.1.tgz
+36 silly lockFile 276f2374-g-ghost-cli-ghost-cli-1-13-1-tgz https://registry.npmjs.org/ghost-cli/-/ghost-cli-1.13.1.tgz
+37 silly lockFile 276f2374-g-ghost-cli-ghost-cli-1-13-1-tgz https://registry.npmjs.org/ghost-cli/-/ghost-cli-1.13.1.tgz
+38 silly lockFile f59e9c7f-ghost-cli-1-13-1 ghost-cli@1.13.1
+39 silly lockFile f59e9c7f-ghost-cli-1-13-1 ghost-cli@1.13.1
+40 silly lockFile 94fc94ca-ghost-cli-latest ghost-cli@latest
+41 silly lockFile 94fc94ca-ghost-cli-latest ghost-cli@latest
+42 silly resolved [ { name: 'ghost-cli',
+42 silly resolved     version: '1.13.1',
+42 silly resolved     description: 'CLI Tool for installing & updating Ghost',
+42 silly resolved     author: { name: 'Ghost Foundation' },
+42 silly resolved     homepage: 'https://ghost.org',
+42 silly resolved     keywords: [ 'ghost', 'cli' ],
+42 silly resolved     repository:
+42 silly resolved      { type: 'git',
+42 silly resolved        url: 'git+https://github.com/TryGhost/Ghost-CLI.git' },
+42 silly resolved     bugs: { url: 'https://github.com/TryGhost/Ghost-CLI/issues' },
+42 silly resolved     contributors: 'https://github.com/TryGhost/Ghost-CLI/graphs/contributors',
+42 silly resolved     license: 'MIT',
+42 silly resolved     main: 'lib/index.js',
+42 silly resolved     bin: { ghost: './bin/ghost' },
+42 silly resolved     scripts:
+42 silly resolved      { coverage: 'nyc report --reporter=text-lcov | coveralls',
+42 silly resolved        lint: 'eslint bin/* lib test extensions',
+42 silly resolved        'test:unit': 'nyc --reporter=html --reporter=text mocha --recursive test/unit extensions/**/test',
+42 silly resolved        'test:acceptance': 'mocha --timeout 10000 test/acceptance/**/*-spec.js',
+42 silly resolved        'test:all': 'yarn test:unit && yarn test:acceptance',
+42 silly resolved        test: 'yarn test:all',
+42 silly resolved        posttest: 'yarn lint',
+42 silly resolved        ship: 'f() { STATUS=$(git status --porcelain); echo $STATUS; if [ -z "$STATUS" ]; then standard-version $@ && git push --follow-tags;  fi; }; f' },
+42 silly resolved     nyc: { exclude: [Object] },
+42 silly resolved     engines: { node: '^8.16.0 || ^10.13.0 || ^12.10.0' },
+42 silly resolved     preferGlobal: true,
+42 silly resolved     dependencies:
+42 silly resolved      { abbrev: '1.1.1',
+42 silly resolved        'adm-zip': '0.4.13',
+42 silly resolved        bluebird: '3.7.1',
+42 silly resolved        chalk: '2.4.2',
+42 silly resolved        'cli-table3': '0.5.0',
+42 silly resolved        debug: '4.1.1',
+42 silly resolved        decompress: '4.2.0',
+42 silly resolved        download: '7.1.0',
+42 silly resolved        execa: '1.0.0',
+42 silly resolved        'find-plugins': '1.1.7',
+42 silly resolved        fkill: '6.2.0',
+42 silly resolved        'form-data': '2.5.1',
+42 silly resolved        'fs-extra': '8.1.0',
+42 silly resolved        'generate-password': '1.4.2',
+42 silly resolved        'global-modules': '2.0.0',
+42 silly resolved        got: '9.6.0',
+42 silly resolved        'https-proxy-agent': '3.0.1',
+42 silly resolved        inquirer: '7.0.0',
+42 silly resolved        'is-running': '2.1.0',
+42 silly resolved        'latest-version': '5.1.0',
+42 silly resolved        listr: '0.14.3',
+42 silly resolved        lodash: '4.17.15',
+42 silly resolved        'log-symbols': '3.0.0',
+42 silly resolved        moment: '2.24.0',
+42 silly resolved        mysql: '2.17.1',
+42 silly resolved        ora: '3.4.0',
+42 silly resolved        'package-json': '6.5.0',
+42 silly resolved        'path-is-root': '0.1.0',
+42 silly resolved        portfinder: '1.0.25',
+42 silly resolved        prettyjson: '1.2.1',
+42 silly resolved        'proxy-from-env': '1.0.0',
+42 silly resolved        'read-last-lines': '1.7.1',
+42 silly resolved        'replace-in-file': '4.2.0',
+42 silly resolved        rxjs: '6.5.3',
+42 silly resolved        semver: '6.3.0',
+42 silly resolved        shasum: '1.0.2',
+42 silly resolved        'stat-mode': '0.3.0',
+42 silly resolved        'strip-ansi': '5.2.0',
+42 silly resolved        'symlink-or-copy': '1.2.0',
+42 silly resolved        systeminformation: '4.14.17',
+42 silly resolved        tail: '2.0.3',
+42 silly resolved        'tough-cookie': '3.0.1',
+42 silly resolved        validator: '7.2.0',
+42 silly resolved        yargs: '14.2.0',
+42 silly resolved        yarn: '1.19.1' },
+42 silly resolved     devDependencies:
+42 silly resolved      { chai: '4.2.0',
+42 silly resolved        coveralls: '3.0.7',
+42 silly resolved        eslint: '6.6.0',
+42 silly resolved        'eslint-plugin-ghost': '0.6.0',
+42 silly resolved        'has-ansi': '4.0.0',
+42 silly resolved        mocha: '6.2.2',
+42 silly resolved        nock: '11.7.0',
+42 silly resolved        nyc: '14.1.1',
+42 silly resolved        proxyquire: '2.1.3',
+42 silly resolved        sinon: '7.5.0',
+42 silly resolved        'standard-version': '4.3.0',
+42 silly resolved        tmp: '0.1.0' },
+42 silly resolved     'standard-version': { skip: [Object] },
+42 silly resolved     gitHead: 'ba7fb2bc4ddc9a79ea0711f7483c64e3fdeba1f2',
+42 silly resolved     _id: 'ghost-cli@1.13.1',
+42 silly resolved     _npmVersion: '6.4.1',
+42 silly resolved     _nodeVersion: '8.16.2',
+42 silly resolved     _npmUser: { name: 'austin.burdine', email: 'austin@acburdine.me' },
+42 silly resolved     dist:
+42 silly resolved      { integrity: 'sha512-7mEQEBVVOKX7jdz+wRuKfI8YMY+Jhp1MoI4L0+7u4HkLgKYYl2VeJ02/BlkLNEKA2jhTW5Qkd2ICWUt5fCCk3A==',
+42 silly resolved        shasum: '5de99f2a3446e7dfc5391afa8acdf10cd47b9916',
+42 silly resolved        tarball: 'https://registry.npmjs.org/ghost-cli/-/ghost-cli-1.13.1.tgz',
+42 silly resolved        fileCount: 107,
+42 silly resolved        unpackedSize: 635194,
+42 silly resolved        'npm-signature': '-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdxT57CRA9TVsSAnZWagAAlHcP/izX3JSYEmNHviTxOm3g\nLl5Fc3LlRUe/lAfnjs+1J5DqS0M5GD3Sxz/uoTI4lhzlYPFzAXd7p4Fg8x7n\nr4esOSea5iD14Aow34RLnUe41aTOo2/+irU4HhxHCWDsyLxrvtdvI35UKyT0\nKAjaETpbhCXMaMb6s6Tajk9XGwyC0TXHoioPkMRW4KonFAs6z8gttbUCKeZf\n9/UTbKiOPYH15WpF5ofv0HGpMfvwqNtR0vIlLmP0ahw+EhTRSTx7ptjbS5MZ\nmr/Zh5FxbvOB4eZ3VrZrL6iDq9J1ePw98mWZ8jBdce4vfqe0SFm/rpICmtBs\n1zviq569OhxDCpWti0/Uc4N0xEQTRwI+PU0e9AXncBqQJL5sZ3VgksUzsv/C\nRl3hr89Hg2M0uNTQVP6nzJ/QZdnGyk36u3Q+WPsmgQ82TCivAGJ5YDqcxnYs\nMl6Yi7wb+61WZxKbW6ZsreNKJLxOeNav+e5BKbKxqysmII4Kl4eGGmEoPuQF\nNsTnJ6J8sg6RSwm3seNAx/IxA1demjojJwG/IXtOkFJaTpkVCkrOPA6k/meJ\nOfai583taHCk1CO1xbdvBPvRCBHXt2FwX3oR8q+cePg7q20DyQWW2EnlSd8g\n3u4uUBXsMi+dAfg0v9At17T3n+rXBJTsex54Nthm6e4avqHPLZysp8J8X/Hk\nlm9c\r\n=NBR3\r\n-----END PGP SIGNATURE-----\r\n' },
+42 silly resolved     maintainers:
+42 silly resolved      [ [Object],
+42 silly resolved        [Object],
+42 silly resolved        [Object],
+42 silly resolved        [Object],
+42 silly resolved        [Object],
+42 silly resolved        [Object],
+42 silly resolved        [Object] ],
+42 silly resolved     directories: {},
+42 silly resolved     _npmOperationalInternal:
+42 silly resolved      { host: 's3://npm-registry-packages',
+42 silly resolved        tmp: 'tmp/ghost-cli_1.13.1_1573207675443_0.07900185642886237' },
+42 silly resolved     _hasShrinkwrap: false,
+42 silly resolved     _shasum: '5de99f2a3446e7dfc5391afa8acdf10cd47b9916',
+42 silly resolved     _from: 'ghost-cli@latest',
+42 silly resolved     _resolved: 'https://registry.npmjs.org/ghost-cli/-/ghost-cli-1.13.1.tgz' } ]
+43 info install ghost-cli@1.13.1 into /usr/local/lib
+44 info installOne ghost-cli@1.13.1
+45 warn engine ghost-cli@1.13.1: wanted: {"node":"^8.16.0 || ^10.13.0 || ^12.10.0"} (current: {"node":"0.10.33","npm":"1.4.28"})
+46 verbose lib/node_modules/ghost-cli unbuild
+47 verbose tar unpack /Users/richardmasters/.npm/ghost-cli/1.13.1/package.tgz
+48 silly lockFile 5a6d56e1-local-lib-node-modules-ghost-cli tar:///usr/local/lib/node_modules/ghost-cli
+49 verbose lock tar:///usr/local/lib/node_modules/ghost-cli /Users/richardmasters/.npm/5a6d56e1-local-lib-node-modules-ghost-cli.lock
+50 silly lockFile caa1bdce-npm-ghost-cli-1-13-1-package-tgz tar:///Users/richardmasters/.npm/ghost-cli/1.13.1/package.tgz
+51 verbose lock tar:///Users/richardmasters/.npm/ghost-cli/1.13.1/package.tgz /Users/richardmasters/.npm/caa1bdce-npm-ghost-cli-1-13-1-package-tgz.lock
+52 silly gunzTarPerm modes [ '755', '644' ]
+53 error Error: EACCES, mkdir '/usr/local/lib/node_modules/ghost-cli'
+53 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/ghost-cli']
+53 error   errno: 3,
+53 error   code: 'EACCES',
+53 error   path: '/usr/local/lib/node_modules/ghost-cli',
+53 error   fstream_type: 'Directory',
+53 error   fstream_path: '/usr/local/lib/node_modules/ghost-cli',
+53 error   fstream_class: 'DirWriter',
+53 error   fstream_stack:
+53 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+53 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+53 error      'Object.oncomplete (fs.js:107:15)' ] }
+54 error Please try running this command again as root/Administrator.
+55 error System Darwin 18.5.0
+56 error command "node" "/usr/local/bin/npm" "install" "ghost-cli@latest" "-g"
+57 error cwd /Users/richardmasters/Dropbox/Verinode/verinode.github.io
+58 error node -v v0.10.33
+59 error npm -v 1.4.28
+60 error path /usr/local/lib/node_modules/ghost-cli
+61 error fstream_path /usr/local/lib/node_modules/ghost-cli
+62 error fstream_type Directory
+63 error fstream_class DirWriter
+64 error code EACCES
+65 error errno 3
+66 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/ghost-cli'
+67 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+67 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+67 error fstream_stack Object.oncomplete (fs.js:107:15)
+68 verbose exit [ 3, true ]
