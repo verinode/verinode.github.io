@@ -7,7 +7,7 @@
   "database": {
     "client": "sqlite3",
     "connection": {
-      "filename": "/Users/richardmasters/Dropbox/Verinode/verinode.github.io/blog/content/data/ghost-local.db"
+      "filename": "/Users/richard/Dropbox/Verinode/verinode.github.io/blog/content/data/ghost-local.db"
     }
   },
   "mail": {
@@ -21,6 +21,6 @@
   },
   "process": "local",
   "paths": {
-    "contentPath": "/Users/richardmasters/Dropbox/Verinode/verinode.github.io/blog/content"
+    "contentPath": "/Users/richard/Dropbox/Verinode/verinode.github.io/blog/content"
   }
 }
