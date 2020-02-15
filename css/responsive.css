@@ -26,7 +26,7 @@
     padding: 90px 0;
   }
   .contents .head-title {
-    font-size: 30px !important;
+    font-size: 30px;
     line-height: 42px;
   }
   .navbar-expand-md .navbar-nav .nav-link {
@@ -165,7 +165,7 @@
     margin-bottom: 15px;
   }
   .hero-area-2 .contents h2 {
-    font-size: 24px;
+    font-size: 40px;
     line-height: 36px;
   }
   .hero-area-2 .contents {
@@ -334,7 +334,7 @@
     line-height: 30px;
   }
   .contents .head-title {
-    font-size: 20px !important;
+    font-size: 2em !important;
     line-height: 30px;
   }
   .hero-area .contents {
