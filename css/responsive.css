@@ -200,7 +200,8 @@
     display: none;
   }
   .hero-area-2 .contents {
-    padding: 100px 0 10px;
+    padding: 0 0 10px;
+    /*padding: 100px 0 10px;*/
     text-align: center;
   }
   .hero-area-2 .contents .btn {
@@ -346,7 +347,8 @@
     margin-top: 20px;
   }
   .hero-area-2 .contents {
-    padding: 100px 0 10px;
+    padding: 0 0 10px;
+    /*padding: 100px 0 10px;*/
   }
   .hero-area-2 .contents .btn {
     margin-top: 20px;
