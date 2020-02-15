@@ -153,6 +153,9 @@
 }
 
 @media only screen and (max-width: 767px) {
+  .hero-content {
+    padding-top: 3rem;
+  }
   .section {
     padding: 60px 0 45px;
   }
