@@ -295,6 +295,12 @@
   .navbar-brand {
     width: 70%;
   }
+  .main-feature {
+    padding-bottom: 3em;
+  }
+  img.feature-image {
+    padding-bottom: 25px;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
