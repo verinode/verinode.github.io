@@ -1,4 +1,6 @@
+site_name: Verinode Documentation
 theme:
   name: 'material'
-
-site_name: My Docs
+nav:
+  - Home: index.md
+  - About: about.md
