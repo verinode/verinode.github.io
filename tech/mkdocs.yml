@@ -1,6 +1,8 @@
 site_name: Verinode Documentation
+
 theme:
   name: 'material'
+
 nav:
   - Home: index.md
   - About: about.md
