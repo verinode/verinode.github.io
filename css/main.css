@@ -488,8 +488,7 @@ button:focus {
 }
 
 .menu-bg {
-  background: rgb(13,35,65);
-  background: linear-gradient(298deg, rgba(13,35,65,1) 0%, rgba(31,65,107,1) 100%);
+  background: #0d2341;
   z-index: 9999;
   padding: 15px;
 }
@@ -1965,8 +1964,7 @@ textarea {
 }
 
 .contact .contact-block {
-  background: rgb(13,35,65);
-  background: linear-gradient(298deg, rgba(13,35,65,1) 0%, rgba(31,65,107,1) 100%);
+  background: #0d2341;
   overflow: hidden;
   padding: 30px;
   border-radius: 5px;
@@ -2156,7 +2154,7 @@ textarea {
 }
 
 footer .footer-Content {
-  background: linear-gradient(298deg, rgba(13,35,65,1) 0%, rgba(31,65,107,1) 100%);
+  background: #0d2341;
   padding: 60px 0 0px;
   color: #546E7A;
 }
