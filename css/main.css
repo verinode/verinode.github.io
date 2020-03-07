@@ -91,7 +91,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   position: relative;
 }
 
-.section-header .section-title {
+.section-header .section-title, h3.feature {
   font-size: 30px;
   margin-bottom: 20px;
   font-family: 'Poppins', sans-serif;
@@ -980,7 +980,7 @@ button:focus {
  Features Section Start
  ========================================================================== */
 
-.main-feature {
+.main-feature, .main-feature p{
   text-align: center;
   color: #fff;
 }
